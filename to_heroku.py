@@ -12,7 +12,7 @@ headers = {'Content-Type': 'application/json; charset=utf-8'}
 
 
 params  = {'q': random_cap,
-           'APPID': 'd0d170595764537ef1fa2e81fbc9db12',
+           'APPID': '*',
            'units':'metric'}
 
 response = requests.post(url, params=params, headers=headers)
